@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="untref.dysac.fibo.EjecutableTest" time="0.105" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="untref.dysac.fibo.EjecutableTest" time="0.185" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="20"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="AR"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-20\bin"/>
-    <property name="sun.java.command" value="C:\Users\ri_an\AppData\Local\Temp\surefire13994163124588828291\surefirebooter16421841285386795724.jar C:\Users\ri_an\AppData\Local\Temp\surefire13994163124588828291 2023-09-04T19-46-26_048-jvmRun1 surefire2289799774846730807tmp surefire_01465112190456381021tmp"/>
+    <property name="sun.java.command" value="C:\Users\ri_an\AppData\Local\Temp\surefire4883606304581697044\surefirebooter1752862154011832171.jar C:\Users\ri_an\AppData\Local\Temp\surefire4883606304581697044 2023-09-04T20-20-58_744-jvmRun1 surefire4418509128837929129tmp surefire_012992530934407441907tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Java\dyasc-2023\fibo\target\test-classes;C:\Java\dyasc-2023\fibo\target\classes;C:\Users\ri_an\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\ri_an\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\ri_an\AppData\Local\Temp\surefire13994163124588828291\surefirebooter16421841285386795724.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ri_an\AppData\Local\Temp\surefire4883606304581697044\surefirebooter1752862154011832171.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="20.0.2+9-78"/>
@@ -58,8 +58,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="64.0"/>
   </properties>
-  <testcase name="testVerticalDirecto" classname="untref.dysac.fibo.EjecutableTest" time="0.016"/>
-  <testcase name="testVerticalInversa" classname="untref.dysac.fibo.EjecutableTest" time="0.003"/>
+  <testcase name="testVerticalDirecto" classname="untref.dysac.fibo.EjecutableTest" time="0.019"/>
+  <testcase name="testVerticalInversa" classname="untref.dysac.fibo.EjecutableTest" time="0.002"/>
   <testcase name="testFibonacci" classname="untref.dysac.fibo.EjecutableTest" time="0"/>
   <testcase name="testHorizontalDirect0" classname="untref.dysac.fibo.EjecutableTest" time="0.001"/>
   <testcase name="testHorizontalInversa" classname="untref.dysac.fibo.EjecutableTest" time="0.001"/>

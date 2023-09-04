@@ -65,6 +65,8 @@ public class Fibonacci {
      * @param fibonacciArray
      */
     private void printFibonacciVerticalDirecto(int[] fibonacciArray) {
+        System.out.print("fibo <" + this.numero + ">: ");
+        System.out.println();
         for (int numero : fibonacciArray) {
             System.out.println(numero);
         }
@@ -74,8 +76,10 @@ public class Fibonacci {
      * @param fibonacciArray
      */
     private void printFibonacciVerticalInversa(int[] fibonacciArray) {
+        System.out.print("fibo <" + this.numero + ">: ");
+        System.out.println();
         for (int i = fibonacciArray.length - 1; i >= 0; i--) {
-            System.out.println(fibonacciArray[i]);
+            System.out.println(fibonacciArray[i] + " ");
         }
     }
     /**
@@ -83,6 +87,8 @@ public class Fibonacci {
      * @param fibonacciArray
      */
     private void printFibonacciHorizontalDirecto(int[] fibonacciArray) {
+        System.out.print("fibo <" + this.numero + ">: ");
+
         for (int numero : fibonacciArray) {
             System.out.print(numero + " ");
         }
@@ -92,6 +98,7 @@ public class Fibonacci {
      * @param fibonacciArray
      */
     private void printFibonacciHorizontalInversa(int[] fibonacciArray) {
+        System.out.print("fibo <" + this.numero + ">: ");
         for (int i = fibonacciArray.length - 1; i >= 0; i--) {
             System.out.print(fibonacciArray[i] + " ");
         }
