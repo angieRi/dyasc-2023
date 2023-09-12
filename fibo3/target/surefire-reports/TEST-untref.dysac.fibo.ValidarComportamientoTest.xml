@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="untref.dysac.fibo.EjecutableTest" time="0.108" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="untref.dysac.fibo.ValidarComportamientoTest" time="0.019" tests="13" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="20"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Java\dyasc-2023\fibo\target\test-classes;C:\Java\dyasc-2023\fibo\target\classes;C:\Users\ri_an\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\ri_an\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.class.path" value="C:\Java\dyasc-2023\fibo3\target\test-classes;C:\Java\dyasc-2023\fibo3\target\classes;C:\Users\ri_an\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\ri_an\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="AR"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-20\bin"/>
-    <property name="sun.java.command" value="C:\Users\ri_an\AppData\Local\Temp\surefire12460092422880611983\surefirebooter15797052702139230869.jar C:\Users\ri_an\AppData\Local\Temp\surefire12460092422880611983 2023-09-11T00-37-22_028-jvmRun1 surefire8045830798864498748tmp surefire_013700764197781972064tmp"/>
+    <property name="sun.java.command" value="C:\Users\ri_an\AppData\Local\Temp\surefire694135477302227028\surefirebooter11040446554240342702.jar C:\Users\ri_an\AppData\Local\Temp\surefire694135477302227028 2023-09-12T00-15-29_484-jvmRun1 surefire3712477005086049350tmp surefire_011609350031731644961tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Java\dyasc-2023\fibo\target\test-classes;C:\Java\dyasc-2023\fibo\target\classes;C:\Users\ri_an\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\ri_an\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Java\dyasc-2023\fibo3\target\test-classes;C:\Java\dyasc-2023\fibo3\target\classes;C:\Users\ri_an\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\ri_an\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\ri_an"/>
     <property name="user.language" value="es"/>
@@ -25,12 +25,12 @@
     <property name="java.version.date" value="2023-07-18"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-20"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Java\dyasc-2023\fibo"/>
+    <property name="basedir" value="C:\Java\dyasc-2023\fibo3"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\ri_an\AppData\Local\Temp\surefire12460092422880611983\surefirebooter15797052702139230869.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ri_an\AppData\Local\Temp\surefire694135477302227028\surefirebooter11040446554240342702.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="20.0.2+9-78"/>
@@ -45,7 +45,7 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\ri_an\AppData\Local\Temp\"/>
     <property name="java.version" value="20.0.2"/>
-    <property name="user.dir" value="C:\Java\dyasc-2023\fibo"/>
+    <property name="user.dir" value="C:\Java\dyasc-2023\fibo3"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
@@ -58,9 +58,17 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="64.0"/>
   </properties>
-  <testcase name="testVerticalDirecto" classname="untref.dysac.fibo.EjecutableTest" time="0.016"/>
-  <testcase name="testVerticalInversa" classname="untref.dysac.fibo.EjecutableTest" time="0.001"/>
-  <testcase name="testFibonacci" classname="untref.dysac.fibo.EjecutableTest" time="0"/>
-  <testcase name="testHorizontalDirect0" classname="untref.dysac.fibo.EjecutableTest" time="0.002"/>
-  <testcase name="testHorizontalInversa" classname="untref.dysac.fibo.EjecutableTest" time="0.001"/>
+  <testcase name="validaNoEsEntero" classname="untref.dysac.fibo.ValidarComportamientoTest" time="0"/>
+  <testcase name="entradaNoEsValidaArchivoExtensionInvalida" classname="untref.dysac.fibo.ValidarComportamientoTest" time="0.002"/>
+  <testcase name="entradaEsValidaComoArchivo" classname="untref.dysac.fibo.ValidarComportamientoTest" time="0"/>
+  <testcase name="entradaNoValidaComoArchivo" classname="untref.dysac.fibo.ValidarComportamientoTest" time="0"/>
+  <testcase name="validaSiEsEntero" classname="untref.dysac.fibo.ValidarComportamientoTest" time="0"/>
+  <testcase name="entradaEsValidaComoOrientacionDireccion" classname="untref.dysac.fibo.ValidarComportamientoTest" time="0"/>
+  <testcase name="entradaNoEsValidaArchivoSinExtension" classname="untref.dysac.fibo.ValidarComportamientoTest" time="0.001"/>
+  <testcase name="entradaNoEsModoValido" classname="untref.dysac.fibo.ValidarComportamientoTest" time="0"/>
+  <testcase name="entradaEsModoValido" classname="untref.dysac.fibo.ValidarComportamientoTest" time="0"/>
+  <testcase name="validarArchivoSinArgumentoF" classname="untref.dysac.fibo.ValidarComportamientoTest" time="0.001"/>
+  <testcase name="entradaSiValidaComoNumero" classname="untref.dysac.fibo.ValidarComportamientoTest" time="0"/>
+  <testcase name="entradaNoValidaComoNumero" classname="untref.dysac.fibo.ValidarComportamientoTest" time="0"/>
+  <testcase name="entradaNoValidaComoOrientacionDireccion" classname="untref.dysac.fibo.ValidarComportamientoTest" time="0"/>
 </testsuite>
