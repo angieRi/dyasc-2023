@@ -1,36 +1,17 @@
 package untref.dysac.fibo;
 
-import untref.dysac.fibo.salida.ValidarComportamiento;
+import untref.dysac.fibo.recursos.EscribirArchivo;
+import untref.dysac.fibo.comportamiento.FormatoSalida;
+import untref.dysac.fibo.comportamiento.GenerarSalida;
+import untref.dysac.fibo.comportamiento.GenerarEntrada;
+import untref.dysac.fibo.comportamiento.ValidarEntrada;
 
 public class Main {
-
 	public static void main(String[] args) {
-		ValidarComportamiento validar = new ValidarComportamiento();
+		ValidarEntrada validador = new ValidarEntrada();
+		GenerarEntrada dataEntrada = new GenerarEntrada(validador);
+		EscribirArchivo escribir = new EscribirArchivo();
+		FormatoSalida formatoSalida = new FormatoSalida(escribir);
+		GenerarSalida salidaFibonacci = new GenerarSalida(dataEntrada,formatoSalida,args);
 	}
 }
-/**
- // Ejemplo 4, sin -o
- if (args.length == 1) {
- int n = Integer.parseInt(args[0]);
- sucesionFibonacci = new Fibonacci(n, null, null);
- System.out.print("fibo <" + n + ">: ");
- for (int i = 0; i < n; i++) {
- System.out.print(sucesionFibonacci.fibonacci(i) + " ");//realiza y muestra la sucesión
- }
- }
- if (args.length > 1) {
- String orientacion = null;
- String direccion=null;
- int n = 0;
- Fibonacci sucesionFibonacci2 ;
- for (String arg : args) {
- if (arg.startsWith("-o=")) {
- orientacion = arg.substring(3, 4);
- direccion = arg.substring(4, 5);
- } else {
- n = Integer.parseInt(arg);
- }
- }
- sucesionFibonacci2 = new Fibonacci(n, orientacion, direccion);
- sucesionFibonacci2.generarFibonacci();//imprime fibonacci de n por orientación y dirección
- **/

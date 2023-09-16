@@ -1,7 +1,11 @@
 package untref.dysac.fibo;
 
-
 import org.junit.Test;
+import org.junit.After;
+import org.junit.Before;
+import java.io.ByteArrayOutputStream;
+import java.io.PrintStream;
+import static junit.framework.TestCase.assertEquals;
 
 /**
  * Unit test for simple App.
@@ -9,52 +13,32 @@ import org.junit.Test;
 public class MainTest
 {
     @Test
-    public void testValidarComportamiento() {
+    public void iniciaFibo3() {
         String[] args = {"-o=vd", "8"};
         Main.main(args);
     }
-    //Fibonacci sucesionFibonacci ;
-    /**
-    @Test
-    public void testVerticalDirecto() {
-        String[] args = {"-o=vd", "8"};
-        Main.main(args);
-        sucesionFibonacci = new Fibonacci(8, null, null);
-        assertEquals(21, sucesionFibonacci.fibonacci(8));
+    private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+    private final ByteArrayOutputStream errContent = new ByteArrayOutputStream();
+    private final PrintStream originalOut = System.out;
+    private final PrintStream originalErr = System.err;
+    @Before
+    public void setUpStreams() {
+        System.setOut(new PrintStream(outContent));
+        System.setErr(new PrintStream(errContent));
+    }
+    @After
+    public void restoreStreams() {
+        System.setOut(originalOut);
+        System.setErr(originalErr);
     }
 
     @Test
-    public void testVerticalInversa() {
-        String[] args = {"-o=vi", "5"};
+    public void metodoQueImprimeEnConsola() {
+        String[] args = {"-o=vd","-f=salida.txt", "5"};
+        // Llama al método que imprime en la consola
         Main.main(args);
-        sucesionFibonacci = new Fibonacci(5, null, null);
-        assertEquals(5, sucesionFibonacci.fibonacci(5));
-
+        // Captura la salida estándar y verifica la salida esperada
+        String expectedOutput = "fibo <5> guardado en salida.txt\r\n";
+        assertEquals(expectedOutput, outContent.toString());
     }
-
-    @Test
-    public void testHorizontalDirect0() {
-        String[] args = {"-o=hd", "6"};
-        Main.main(args);
-        sucesionFibonacci = new Fibonacci(6, null, null);
-        assertEquals(8, sucesionFibonacci.fibonacci(6));
-    }
-
-    @Test
-    public void testHorizontalInversa() {
-        String[] args = {"-o=hi", "9"};
-        Main.main(args);
-        sucesionFibonacci = new Fibonacci(9, null, null);
-        assertEquals(34, sucesionFibonacci.fibonacci(9));
-    }
-    @Test
-    public void testFibonacci() {
-        sucesionFibonacci = new Fibonacci(0, null, null);
-        assertEquals(0, sucesionFibonacci.fibonacci(0));
-        assertEquals(1, sucesionFibonacci.fibonacci(1));
-        assertEquals(1, sucesionFibonacci.fibonacci(2));
-        assertEquals(2, sucesionFibonacci.fibonacci(3));
-        assertEquals(3, sucesionFibonacci.fibonacci(4));
-    }
-    **/
 }

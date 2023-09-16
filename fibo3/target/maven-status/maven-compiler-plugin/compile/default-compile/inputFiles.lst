@@ -1,7 +1,8 @@
-C:\Java\dyasc-2023\fibo3\src\main\java\untref\dysac\fibo\comportamiento\CalcularSumatoria.java
-C:\Java\dyasc-2023\fibo3\src\main\java\untref\dysac\fibo\comportamiento\EscribirSalidaArchivo.java
 C:\Java\dyasc-2023\fibo3\src\main\java\untref\dysac\fibo\Main.java
-C:\Java\dyasc-2023\fibo3\src\main\java\untref\dysac\fibo\comportamiento\FormatoSalidaConsola.java
-C:\Java\dyasc-2023\fibo3\src\main\java\untref\dysac\fibo\sucesion\SucesionFibonacci.java
-C:\Java\dyasc-2023\fibo3\src\main\java\untref\dysac\fibo\salida\ValidarComportamiento.java
-C:\Java\dyasc-2023\fibo3\src\main\java\untref\dysac\fibo\salida\GenerarSalidaConsola.java
+C:\Java\dyasc-2023\fibo3\src\main\java\untref\dysac\fibo\comportamiento\GenerarEntrada.java
+C:\Java\dyasc-2023\fibo3\src\main\java\untref\dysac\fibo\recursos\EscribirArchivo.java
+C:\Java\dyasc-2023\fibo3\src\main\java\untref\dysac\fibo\recursos\SucesionFibonacci.java
+C:\Java\dyasc-2023\fibo3\src\main\java\untref\dysac\fibo\recursos\CalcularSumatoria.java
+C:\Java\dyasc-2023\fibo3\src\main\java\untref\dysac\fibo\comportamiento\ValidarEntrada.java
+C:\Java\dyasc-2023\fibo3\src\main\java\untref\dysac\fibo\comportamiento\FormatoSalida.java
+C:\Java\dyasc-2023\fibo3\src\main\java\untref\dysac\fibo\comportamiento\GenerarSalida.java

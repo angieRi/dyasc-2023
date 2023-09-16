@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="untref.dysac.fibo.ValidarComportamientoTest" time="0.019" tests="13" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="untref.dysac.fibo.ValidarEntradaTest" time="0.002" tests="13" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="20"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Java\dyasc-2023\fibo3\target\test-classes;C:\Java\dyasc-2023\fibo3\target\classes;C:\Users\ri_an\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\ri_an\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.class.path" value="C:\Java\dyasc-2023\fibo3\target\test-classes;C:\Java\dyasc-2023\fibo3\target\classes;C:\Users\ri_an\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\ri_an\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ri_an\.m2\repository\com\github\stefanbirkner\system-rules\1.19.0\system-rules-1.19.0.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="AR"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-20\bin"/>
-    <property name="sun.java.command" value="C:\Users\ri_an\AppData\Local\Temp\surefire694135477302227028\surefirebooter11040446554240342702.jar C:\Users\ri_an\AppData\Local\Temp\surefire694135477302227028 2023-09-12T00-15-29_484-jvmRun1 surefire3712477005086049350tmp surefire_011609350031731644961tmp"/>
+    <property name="sun.java.command" value="C:\Users\ri_an\AppData\Local\Temp\surefire2022464280747555518\surefirebooter9275453180559601640.jar C:\Users\ri_an\AppData\Local\Temp\surefire2022464280747555518 2023-09-15T23-50-24_433-jvmRun1 surefire13790568929120076069tmp surefire_09272914753054308001tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Java\dyasc-2023\fibo3\target\test-classes;C:\Java\dyasc-2023\fibo3\target\classes;C:\Users\ri_an\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\ri_an\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Java\dyasc-2023\fibo3\target\test-classes;C:\Java\dyasc-2023\fibo3\target\classes;C:\Users\ri_an\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\ri_an\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ri_an\.m2\repository\com\github\stefanbirkner\system-rules\1.19.0\system-rules-1.19.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\ri_an"/>
     <property name="user.language" value="es"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\ri_an\AppData\Local\Temp\surefire694135477302227028\surefirebooter11040446554240342702.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ri_an\AppData\Local\Temp\surefire2022464280747555518\surefirebooter9275453180559601640.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="20.0.2+9-78"/>
@@ -58,17 +58,17 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="64.0"/>
   </properties>
-  <testcase name="validaNoEsEntero" classname="untref.dysac.fibo.ValidarComportamientoTest" time="0"/>
-  <testcase name="entradaNoEsValidaArchivoExtensionInvalida" classname="untref.dysac.fibo.ValidarComportamientoTest" time="0.002"/>
-  <testcase name="entradaEsValidaComoArchivo" classname="untref.dysac.fibo.ValidarComportamientoTest" time="0"/>
-  <testcase name="entradaNoValidaComoArchivo" classname="untref.dysac.fibo.ValidarComportamientoTest" time="0"/>
-  <testcase name="validaSiEsEntero" classname="untref.dysac.fibo.ValidarComportamientoTest" time="0"/>
-  <testcase name="entradaEsValidaComoOrientacionDireccion" classname="untref.dysac.fibo.ValidarComportamientoTest" time="0"/>
-  <testcase name="entradaNoEsValidaArchivoSinExtension" classname="untref.dysac.fibo.ValidarComportamientoTest" time="0.001"/>
-  <testcase name="entradaNoEsModoValido" classname="untref.dysac.fibo.ValidarComportamientoTest" time="0"/>
-  <testcase name="entradaEsModoValido" classname="untref.dysac.fibo.ValidarComportamientoTest" time="0"/>
-  <testcase name="validarArchivoSinArgumentoF" classname="untref.dysac.fibo.ValidarComportamientoTest" time="0.001"/>
-  <testcase name="entradaSiValidaComoNumero" classname="untref.dysac.fibo.ValidarComportamientoTest" time="0"/>
-  <testcase name="entradaNoValidaComoNumero" classname="untref.dysac.fibo.ValidarComportamientoTest" time="0"/>
-  <testcase name="entradaNoValidaComoOrientacionDireccion" classname="untref.dysac.fibo.ValidarComportamientoTest" time="0"/>
+  <testcase name="validaNoEsEntero" classname="untref.dysac.fibo.ValidarEntradaTest" time="0"/>
+  <testcase name="entradaNoEsValidaArchivoExtensionInvalida" classname="untref.dysac.fibo.ValidarEntradaTest" time="0"/>
+  <testcase name="entradaEsValidaComoArchivo" classname="untref.dysac.fibo.ValidarEntradaTest" time="0"/>
+  <testcase name="validaSiEsEntero" classname="untref.dysac.fibo.ValidarEntradaTest" time="0"/>
+  <testcase name="entradaModoValidoSinArgumentoM" classname="untref.dysac.fibo.ValidarEntradaTest" time="0"/>
+  <testcase name="entradaEsValidaComoOrientacionDireccion" classname="untref.dysac.fibo.ValidarEntradaTest" time="0"/>
+  <testcase name="entradaNoEsValidaArchivoSinExtension" classname="untref.dysac.fibo.ValidarEntradaTest" time="0"/>
+  <testcase name="entradaNoEsModoValido" classname="untref.dysac.fibo.ValidarEntradaTest" time="0"/>
+  <testcase name="entradaEsModoValido" classname="untref.dysac.fibo.ValidarEntradaTest" time="0"/>
+  <testcase name="validarArchivoSinArgumentoF" classname="untref.dysac.fibo.ValidarEntradaTest" time="0"/>
+  <testcase name="entradaSiValidaComoNumero" classname="untref.dysac.fibo.ValidarEntradaTest" time="0"/>
+  <testcase name="entradaNoValidaComoNumero" classname="untref.dysac.fibo.ValidarEntradaTest" time="0.001"/>
+  <testcase name="entradaNoValidaComoOrientacionDireccion" classname="untref.dysac.fibo.ValidarEntradaTest" time="0"/>
 </testsuite>
